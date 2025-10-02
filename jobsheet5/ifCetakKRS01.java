@@ -9,6 +9,7 @@ public class ifCetakKRS01 {
     boolean uktLunas = input.nextBoolean();
 
     // Modifikasi Program
+    // IF-ELSE Menggunakan ternary operator
     String output = uktLunas ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA!"
         : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
 
